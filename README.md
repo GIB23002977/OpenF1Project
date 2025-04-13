@@ -1,5 +1,9 @@
 # OpenF1Project
 
+## How do I run this website? 🚀
+
+Simply download the file, extract it, and then double-click on "home" or any HTML files.
+
 ## What is this website about? 🤔
 
 This website displays sector speeds and durations for each lap within a session, using the [OpenF1](https://openf1.org/) API. It utilizes Chart.js to present the information on the website. This project was completed for work experience.
@@ -16,7 +20,7 @@ This website displays sector speeds and durations for each lap within a session,
 
 JavaScript: Above most JavaScript snippets, you can see the function name, function description, parameters, and returns, which are followed by a list of all the variables.
 
-HTML: It will display what will be held in that content
+HTML: It will display what will be held in that content. Example 
 
 ## Developed by 👥
 
