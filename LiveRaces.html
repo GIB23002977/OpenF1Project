@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>OpenF1 data</title>
+</head>
+<body>
+        <!--
+    Description: This allows us to load scripts and also when the website is reloaded it will check if the URL has parameters. If it does, it will call the function UrlHasParams() to check the URL parms.
+    
+    Elements:
+    - `<script>`
+
+    Purpose: To allow the user to understand the website and what it is about. This is a simple description of the website and what it does.
+    -->
+    <script src="assets/Javascript/LiveRaces.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        window.onload = function() {
+            if (typeof UrlHasParams === "function") {
+                UrlHasParams();
+            }
+        };
+    </script>
+        <!-- 
+    Description: This part of the webiste allows the user to navigate around the website.
+
+    Elements:
+    - `<nav>`
+    - `<h1>`
+    - `<a>`
+
+    Purpose: To ensure navigation is easy and simple to use. This allows the user to navigate around the website with ease. The links are all connected to their respective pages, allowing the user to click on them and be taken to the page they want to go to. This is a simple navigation bar that is easy to use and understand. It is also responsive, meaning it will work on all devices, including mobile phones and tablets.
+    -->
+    <nav>
+        <h1>OpenF1 data visualized</h1>
+        <div class="links">
+            <a href = "Home.html">Home</a>
+            <a href = "Drivers.html">Drivers</a>
+            <a href = "LiveRaces.html">Live Races</a>
+        </div>
+    </nav>
+    
+        <!-- 
+    Description: These are placeholders for the session list and driver list. This will then be used to filter the data and show the user the data they want to see.
+
+    Elements:
+    - `<div>`
+    
+    Purpose: This will allow us use them as placeholder which would allow us to use them to display the data we want to show the user. This is a simple div that is easy to use and understand.
+    -->
+    <div class="LiveRaceInformation"></div>
+    <div id="sessionList"></div>
+    <div id="driverList" class="driver-container"></div>
+    <div id="chartContainer"></div>
+</html>
