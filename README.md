@@ -20,7 +20,7 @@ This website displays sector speeds and durations for each lap within a session,
 
 JavaScript: Above most JavaScript snippets, you can see the function name, function description, parameters, and returns, which are followed by a list of all the variables.
 
-HTML: It will display what will be held in that content. Example 
+HTML: It will display the the descritpion, the elements and finally it will display the reason for it.
 
 ## Developed by 👥
 
